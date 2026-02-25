@@ -1,206 +1,120 @@
-📊 Modelagem e Simulação
+# 📊 Modelagem e Simulação
 
-Repositório da disciplina Modelagem e Simulação, contendo implementações práticas em Python voltadas para:
+Repositório da disciplina **Modelagem e Simulação**, contendo implementações práticas em Python voltadas para simulação de sistemas reais e análise de desempenho utilizando Teoria das Filas.
 
-📚 Simulação de sistema de biblioteca
+---
 
-🍽 Simulação de Restaurante Universitário (RU)
-
-🛒 Análise de sistema de filas (supermercado e RU)
-
-📈 Modelagem matemática de filas M/M/c
-
-🧮 Implementação da Fórmula de Erlang C
-
-🎯 Objetivo da Disciplina
+## 🎯 Objetivo
 
 Aplicar conceitos de modelagem matemática e simulação computacional para representar sistemas reais, analisar seu comportamento e avaliar métricas de desempenho.
 
 Os projetos desenvolvidos simulam:
 
-Sistemas de empréstimo
+- 📚 Sistema de biblioteca
+- 🍽 Restaurante Universitário (RU)
+- 🛒 Sistema de filas (supermercado e RU)
+- 📈 Modelo de filas M/M/c
+- 🧮 Fórmula de Erlang C
 
-Controle de créditos
+---
 
-Sistemas de filas
+## 🛠 Tecnologias Utilizadas
 
-Probabilidade de espera
+- Python 3
+- Biblioteca `math`
+- Biblioteca `numpy`
 
-Métricas de desempenho em filas M/M/c
+---
 
-🛠 Tecnologias Utilizadas
+## 📂 Estrutura do Projeto
 
-Python 3
-
-Biblioteca math
-
-Biblioteca numpy
-
-📂 Estrutura do Projeto
-
-O repositório contém diferentes simulações e análises:
-
-📚 1. Sistema de Biblioteca
+### 📚 1. Sistema de Biblioteca
 
 Simulação de:
 
-Cadastro de usuários (aluno, professor, funcionário)
+- Cadastro de usuários (aluno, professor, funcionário)
+- Cadastro de livros
+- Empréstimo e devolução
+- Controle de disponibilidade
+- Histórico de empréstimos
+- Empréstimos ativos
 
-Cadastro de livros
+**Conceitos aplicados:**
+- Listas e dicionários
+- Funções
+- Validações
+- Simulação de eventos
 
-Empréstimo e devolução
+---
 
-Controle de disponibilidade
-
-Histórico de empréstimos
-
-Controle de empréstimos ativos
-
-Conceitos aplicados:
-
-Estruturas de dados (listas e dicionários)
-
-Funções
-
-Validações
-
-Simulação de eventos
-
-🍽 2. Simulação de Restaurante Universitário (RU)
+### 🍽 2. Simulação de Restaurante Universitário (RU)
 
 Sistema que:
 
-Controla créditos de alunos
+- Controla créditos dos alunos
+- Permite uso de refeição se houver crédito
+- Registra atendimentos realizados
+- Registra tentativas negadas por falta de crédito
 
-Permite uso de refeição se houver crédito
+**Conceitos aplicados:**
+- Modelagem de entidades
+- Controle de estado
+- Registro estatístico
+- Simulação de fluxo de atendimento
 
-Registra atendimentos realizados
+---
 
-Registra tentativas negadas
+### 📈 3. Análise de Sistema de Filas
 
-Conceitos aplicados:
+Simulação baseada em dados coletados:
 
-Modelagem de entidade (Aluno)
-
-Controle de estado
-
-Registro estatístico
-
-Simulação de fluxo de atendimento
-
-📈 3. Análise de Sistema de Filas
-
-Simulação baseada em dados reais coletados:
-
-Taxa de chegada (λ)
-
-Taxa de atendimento (μ)
-
-Número de servidores (c)
-
-Taxa de ocupação (ρ)
+- Taxa de chegada (λ)
+- Taxa de atendimento (μ)
+- Número de servidores (c)
+- Taxa de ocupação (ρ)
 
 Cenários simulados:
 
-Restaurante Universitário
-
-Caixa de Supermercado
+- Restaurante Universitário
+- Caixa de Supermercado
 
 Classificação do sistema:
 
-Subutilizado
+- Sistema subutilizado
+- Sistema eficiente
+- Sistema no limite
+- Sistema em colapso
 
-Eficiente
+---
 
-No limite
+### 🧮 4. Implementação da Fórmula de Erlang C (M/M/c)
 
-Em colapso
+Implementação matemática da probabilidade de espera:
 
-🧮 4. Implementação da Fórmula de Erlang C (M/M/c)
-
-Implementação matemática completa da probabilidade de espera:
-
-𝑃
-(
-𝑤
-𝑎
-𝑖
-𝑡
-)
 P(wait)
 
 Cálculo das métricas:
 
-Utilização (ρ)
+- Utilização (ρ)
+- Probabilidade de espera
+- Tempo médio na fila (Wq)
+- Número médio na fila (Lq)
+- Tempo médio no sistema (W)
+- Número médio no sistema (L)
 
-Probabilidade de espera
+**Conceitos aplicados:**
 
-Tempo médio na fila (Wq)
+- Teoria das Filas
+- Modelo M/M/c
+- Fórmula de Erlang C
+- Lei de Little
+- Estabilidade do sistema (a < c)
 
-Número médio na fila (Lq)
+---
 
-Tempo médio no sistema (W)
+## ▶ Como Executar
 
-Número médio no sistema (L)
+1. Clone o repositório:
 
-Conceitos aplicados:
-
-Teoria das Filas
-
-Modelo M/M/c
-
-Fórmula de Erlang C
-
-Lei de Little
-
-Estabilidade do sistema (a < c)
-
-▶ Como Executar
-
-Clone o repositório:
-
+```bash
 git clone https://github.com/seu-usuario/modelagem-simulacao.git
-
-Acesse a pasta do projeto:
-
-cd modelagem-simulacao
-
-Execute os arquivos Python:
-
-python nome_do_arquivo.py
-📚 Conceitos Trabalhados
-
-Modelagem matemática de sistemas reais
-
-Simulação computacional
-
-Estruturas de dados
-
-Probabilidade
-
-Estatística aplicada
-
-Teoria das Filas
-
-M/M/c
-
-Erlang C
-
-Lei de Little
-
-💡 Aprendizados
-
-Durante o desenvolvimento deste projeto foi possível:
-
-Traduzir problemas reais em modelos matemáticos
-
-Implementar fórmulas teóricas em código
-
-Simular cenários reais de atendimento
-
-Analisar estabilidade e desempenho de sistemas
-
-👨‍💻 Autor
-
-Matheus Dias Pichler
-Graduando em Ciência da Computação
